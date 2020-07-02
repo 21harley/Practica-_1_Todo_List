@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Practica 1 - Todo List</h1>
+        <div class="hoja">
+            <p class="hoja-respuesta" id="respuesta"></p>
+            <form id="Form" class="hoja-form" action="#" onsubmit="return agregar()" method="post">
+                <input id="Nombre"class="hoja-form_nombre" type="text"   required>
+                <input id="Fecha" class="hoja-form_fecha" type="datetime-local" name="" required>
+                <input id="Color" class="hoja-form_color" type="color" >
+                <input  class="hoja-form_escribir" type="submit"   value="Escribir" >
+            </form>
+            <div class="hoja-list" id="lista"></div>
+
+       </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+ Practica 1 - Todo List 
+ nota:diseno libre (B) dato obligatorio
+1)sitio para ingresar el nombre de la tarea (B)
+2)poder escoger un color para la ficha 
+3)marcar la fecha y hora de la actividad (B)
+ 3.1)validar que la fecha sea igual o superior a la actual
+4)cargarlo a local storage 
+ 4.1)no se permitira otro almacenamiento
+5)se programara con html css y js 
+ 5.1)no se permite uso de framework
+6)poder eliminar la tarea 
+ 6.1)tambien eliminar del local storage
